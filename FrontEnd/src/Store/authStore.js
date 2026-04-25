@@ -9,7 +9,7 @@ export const useAuthStore = create((set)=>({
     isAuthenticated : false,
     error : null,
     isLoading : false,
-    isCheckingAuth: true,
+    isCheckingAuth: false,
     message: null,
 
 
