@@ -94,7 +94,7 @@ const LoginPage = () => {
 
           </div>
 
-          {error && <p className='ext-red-500 text-sm mb-4'>{error}</p>}
+          {error && <p className='text-red-500 text-sm mb-4'>{error}</p>}
 
           <motion.button
 
@@ -110,7 +110,7 @@ const LoginPage = () => {
 
           >
 
-            {isLoading ? <loader className='w-6 h-6 animate-spin mx-auto' /> : "Login"}
+            {isLoading ? <Loader className='w-6 h-6 animate-spin mx-auto' /> : "Login"}
 
 
           </motion.button>

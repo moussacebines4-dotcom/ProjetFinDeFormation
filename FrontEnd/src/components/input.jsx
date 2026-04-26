@@ -1,6 +1,6 @@
 import React from 'react'
 
-function input({icon:Icon, ...props}) {
+function Input({icon:Icon, ...props}) {
   return (
     <div className='relative mb-6'>
       <div className='absolute inset-y-0 flex items-center pl-3 pointer-events-none'>
@@ -12,4 +12,4 @@ function input({icon:Icon, ...props}) {
   )
 }
 
-export default input
+export default Input
